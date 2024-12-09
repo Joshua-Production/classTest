@@ -2,9 +2,53 @@
 // Only ever include the header
 // Never include a cpp file if you have to you have errored somewhere
 #include "Player.h"
+#include "Enemy.h"
+//
+//class Item
+//{
+//
+//};
+//
+//class Enemy
+//{
+//public:
+//    Enemy() : m_healthPotion  (new Item())
+//    {
+//       
+//    }
+//    // Deconstructor is only for cleaning
+//    ~Enemy()
+//    {
+//        delete m_healthPotion;
+//
+//        // also do this
+//         /*m_healthPotion = nullptr;*/
+//    }
+//    /*Enemy() { std::cout << "Enemy Constructor" << std::endl; }
+//    ~Enemy(){ std::cout << "Enemy Constructor" << std::endl;}*/
+//
+//private:
+//    Item* m_healthPotion;
+//
+//
+//};
+
 
 int main()
 {
+//    std::cout << "Start" << std::endl;
+//    Enemy* bob = nullptr;
+//    bob = new Enemy();
+//    
+//    // Delete
+//    delete bob;
+//    std::cout << "End" << std::endl;
+//    return 0;
+
+    Enemy bob = Enemy();
+    
+        return 0;
+
     Player bobulus = Player();
     std::cout <<"Hello and welcone! \n" ;
     std::cout << "\n";
